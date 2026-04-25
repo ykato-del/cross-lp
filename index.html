@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>出展社募集｜CROSS INTERNATIONAL 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho:wght@600;700;800&display=swap');
+        
+        :root {
+            --navy: #002B49;
+            --orange: #F26A21;
+            --gold: #D4AF37;
+        }
+        
+        body { 
+            font-family: 'Noto Sans JP', sans-serif; 
+            color: #333; 
+            background-color: #f9fafb;
+            -webkit-font-smoothing: antialiased;
+            padding-bottom: 80px; /* 固定ボタン用余白 */
+        }
+        
+        .font-mincho { font-family: 'Shippori Mincho', serif; }
+        .font-eng { font-family: 'Montserrat', sans-serif; }
+        .text-navy { color: var(--navy); }
+        .bg-navy { background-color: var(--navy); }
+        .text-orange { color: var(--orange); }
+        .bg-gold { background: linear-gradient(135deg, #D4AF37, #F2D06B); }
+        
+        /* イラスト調のドットパターン背景 */
+        .hero-mobile {
+            background-color: var(--navy);
+            background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+            background-size: 24px 24px;
+            position: relative;
+        }
+
+        .section-title-eng {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--gold);
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title-jp {
+            font-family: 'Shippori Mincho', serif;
+            color: var(--navy);
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 2rem;
+        }
+        
+        /* イラスト用アニメーション */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+    </style>
+</head>
+<body class="max-w-[480px] mx-auto bg-white shadow-xl relative">
+
+    <!-- Header (Simple for Mobile) -->
+    <header class="absolute top-0 w-full z-40 p-4 flex justify-center items-center">
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+            <span class="font-eng font-black text-xl tracking-tighter text-white">CROSS</span>
+            <span class="text-[0.5rem] font-bold text-white border-l border-white/50 pl-2 leading-none uppercase tracking-widest">International<br>2026</span>
+        </div>
+    </header>
+
+    <!-- Hero Section (フラットデザイン) -->
+    <section class="hero-mobile h-[85vh] flex flex-col justify-end px-6 pb-20 text-white overflow-hidden">
+        <!-- 背景の抽象的な光（イラスト的表現） -->
+        <div class="absolute -top-20 -right-20 w-72 h-72 bg-orange/30 rounded-full blur-3xl z-0"></div>
+        <div class="absolute top-40 -left-20 w-56 h-56 bg-blue-400/20 rounded-full blur-3xl z-0"></div>
+        
+        <div class="relative z-10">
+            <p class="font-eng tracking-[0.3em] text-[0.65rem] mb-4 opacity-90 font-bold">WINE COMPLEX PRESENTS</p>
+            <h1 class="font-mincho text-4xl font-bold leading-tight mb-4 drop-shadow-md">
+                飲食店に必要な<br>すべてが、交差する。
+            </h1>
+            <p class="text-sm font-medium tracking-wide mb-6 opacity-90 leading-relaxed">
+                客単価の高い優良レストラン・ホテルへ<br>
+                プレミアム商材を直接アプローチ。
+            </p>
+            <div class="flex gap-2 items-center text-xs font-bold bg-white/20 backdrop-blur w-fit px-4 py-2 rounded-full border border-white/30 mb-6">
+                <i data-lucide="calendar" class="w-4 h-4"></i> 2026.9.24 @東京ポートシティ竹芝
+            </div>
+            
+            <div class="flex flex-col gap-3">
+                <a href="https://admin.prius-pro.jp/m/winecomplex/download.php?p=%241%243286%246e6ck6jWO63qygL3BZQZp1p&b=10&i=2013" target="_blank" rel="noopener noreferrer" class="bg-white/10 backdrop-blur border-2 border-white text-white text-center px-6 py-3.5 rounded-full font-bold text-sm tracking-widest hover:bg-white hover:text-navy transition shadow-lg flex justify-center items-center gap-2">
+                    <i data-lucide="file-down" class="w-4 h-4"></i> 出展要項を見る
+                </a>
+                <a href="https://info.tokyowinecomplex.com/form-C-international-2026.html" target="_blank" rel="noopener noreferrer" class="bg-gold px-6 py-3.5 rounded-full font-bold text-center text-sm tracking-widest shadow-lg text-navy flex justify-center items-center gap-2">
+                    <i data-lucide="pen-line" class="w-4 h-4"></i> 今すぐ申し込む
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain / Concept -->
+    <section class="py-12 px-6 bg-gray-50 border-b border-gray-100">
+        <h2 class="text-xl font-bold text-navy mb-6 leading-relaxed text-center">
+            既存の大型食品展示会で、<br>
+            <span class="text-orange border-b-[3px] border-orange/30">「優良店の決裁者」</span>に出会えていますか？
+        </h2>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+            <p class="text-sm text-gray-700 leading-loose">
+                25年以上「ワインコンプレックス」が築き上げた、食への投資を惜しまない飲食店オーナーやホテルバイヤーのネットワーク。<br><br>
+                その圧倒的な集客基盤へ、貴社のプレミアムな商材をダイレクトに提案できる新しいプラットフォーム。それが<strong>CROSS INTERNATIONAL</strong>です。
+            </p>
+        </div>
+    </section>
+
+    <!-- 3 Merits (Mobile Layout with Icon Illustrations) -->
+    <section class="py-14 px-6 bg-white">
+        <div class="text-center">
+            <p class="section-title-eng">WHY CROSS?</p>
+            <h2 class="section-title-jp">出展企業にもたらす<br>3つの圧倒的メリット</h2>
+        </div>
+
+        <div class="space-y-8">
+            <!-- Merit 1 -->
+            <div class="relative pt-6">
+                <div class="absolute top-0 left-0 text-5xl font-eng font-black text-gray-100 z-0">01</div>
+                <div class="relative z-10 bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+                    <!-- イラストエリア -->
+                    <div class="h-40 bg-gradient-to-br from-blue-50 to-white relative flex items-center justify-center overflow-hidden border-b border-gray-50">
+                        <div class="absolute w-32 h-32 bg-blue-100/50 rounded-full -top-10 -right-10"></div>
+                        <div class="absolute w-20 h-20 bg-orange-100/50 rounded-full -bottom-4 -left-4"></div>
+                        <div class="relative z-10 flex items-center gap-3 animate-float">
+                            <div class="bg-white p-4 rounded-2xl shadow-sm transform -rotate-6 border border-gray-100">
+                                <i data-lucide="wine" class="w-8 h-8 text-navy"></i>
+                            </div>
+                            <i data-lucide="plus" class="w-5 h-5 text-gray-300 font-bold"></i>
+                            <div class="bg-white p-4 rounded-2xl shadow-sm transform rotate-6 border border-gray-100">
+                                <i data-lucide="utensils" class="w-8 h-8 text-orange"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-navy mb-2 flex items-center gap-2">
+                            <i data-lucide="handshake" class="w-5 h-5 text-orange"></i> ペアリング提案のフック
+                        </h3>
+                        <p class="text-xs text-gray-600 leading-relaxed">来場者の主目的である「ワイン」に寄り添い、「このワインにはこの商材が合う」と提案可能。導入ハードルが下がり成約率がUPします。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Merit 2 -->
+            <div class="relative pt-6">
+                <div class="absolute top-0 left-0 text-5xl font-eng font-black text-gray-100 z-0">02</div>
+                <div class="relative z-10 bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+                    <!-- イラストエリア -->
+                    <div class="h-40 bg-gradient-to-br from-orange-50 to-white relative flex items-center justify-center overflow-hidden border-b border-gray-50">
+                        <div class="absolute w-40 h-40 bg-orange-100/50 rounded-full -top-16 -right-8"></div>
+                        <div class="absolute w-16 h-16 bg-blue-100/50 rounded-full bottom-4 left-4"></div>
+                        <div class="relative z-10 flex flex-col items-center animate-float" style="animation-delay: 1s;">
+                            <div class="bg-white p-4 rounded-full shadow-sm mb-2 border border-gray-100">
+                                <i data-lucide="soup" class="w-8 h-8 text-orange"></i>
+                            </div>
+                            <div class="flex items-center gap-1.5 bg-navy text-white px-3 py-1 rounded-full text-[0.6rem] font-bold font-eng shadow-sm">
+                                <i data-lucide="zap" class="w-3 h-3 text-gold"></i> MAX 1500W
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-navy mb-2 flex items-center gap-2">
+                            <i data-lucide="flame" class="w-5 h-5 text-orange"></i> 万全の「試食・試飲」環境
+                        </h3>
+                        <p class="text-xs text-gray-600 leading-relaxed">電源使用可能（最大1500W）。IH機器やホットプレートを用いた温かい状態での試食提供ができ、確実なクロージングを生みます。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Merit 3 -->
+            <div class="relative pt-6">
+                <div class="absolute top-0 left-0 text-5xl font-eng font-black text-orange/10 z-0">03</div>
+                <div class="relative z-10 bg-white rounded-2xl shadow-xl border-2 border-orange overflow-hidden">
+                    <!-- イラストエリア -->
+                    <div class="h-40 bg-gradient-to-br from-orange-50 to-white relative flex items-center justify-center overflow-hidden border-b border-gray-50">
+                        <div class="absolute w-36 h-36 bg-orange-100/50 rounded-full -top-12 -left-8"></div>
+                        <div class="absolute w-24 h-24 bg-blue-100/50 rounded-full bottom-2 right-2"></div>
+                        <div class="relative z-10 flex flex-col items-center animate-float" style="animation-delay: 2s;">
+                            <div class="bg-white p-4 rounded-2xl shadow-sm mb-3 border border-gray-100 flex items-center gap-3">
+                                <i data-lucide="wallet" class="w-8 h-8 text-navy"></i>
+                                <i data-lucide="arrow-right" class="w-4 h-4 text-gray-300"></i>
+                                <i data-lucide="trending-up" class="w-8 h-8 text-orange"></i>
+                            </div>
+                            <div class="flex items-center gap-1.5 bg-orange text-white px-4 py-1.5 rounded-full text-base font-black font-eng shadow-md">
+                                ¥40,000<span class="text-[0.6rem] font-medium opacity-80">〜</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 bg-orange/5">
+                        <h3 class="text-lg font-bold text-navy mb-2 flex items-center gap-2">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-orange"></i> 圧倒的な費用対効果
+                        </h3>
+                        <p class="text-xs text-gray-800 leading-relaxed font-medium">見栄えだけの豪華な装飾は不要。テーブルを専有し、極めて低い初期コストで「本物の決裁者との商談」に集中できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories (Mobile Grid) -->
+    <section class="py-14 px-6 bg-navy text-white">
+        <div class="text-center">
+            <p class="section-title-eng text-orange">CATEGORIES</p>
+            <h2 class="section-title-jp text-white">募集カテゴリー</h2>
+        </div>
+        
+        <p class="text-center text-xs text-gray-300 mb-8 leading-relaxed">客単価の高いレストラン・ホテルが求める、<br>プレミアムな商材を幅広く募集しています。</p>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-white/10 p-4 rounded-xl border border-white/20 text-center">
+                <i data-lucide="utensils" class="w-6 h-6 text-gold mx-auto mb-2"></i>
+                <h4 class="font-bold text-sm mb-1">高品質な<br>食品・食材</h4>
+                <p class="text-[0.65rem] text-gray-300">ジビエ、チーズ、生ハム、調味料、スイーツ等</p>
+            </div>
+            <div class="bg-white/10 p-4 rounded-xl border border-white/20 text-center">
+                <i data-lucide="beer" class="w-6 h-6 text-gold mx-auto mb-2"></i>
+                <h4 class="font-bold text-sm mb-1">クラフト<br>飲料・酒類</h4>
+                <p class="text-[0.65rem] text-gray-300">クラフトビール、リカー、プレミアムノンアル等</p>
+            </div>
+            <div class="bg-white/10 p-4 rounded-xl border border-white/20 text-center col-span-2 flex items-center text-left gap-4">
+                <i data-lucide="laptop" class="w-8 h-8 text-gold shrink-0"></i>
+                <div>
+                    <h4 class="font-bold text-sm mb-1">関連設備・システム・サービス</h4>
+                    <p class="text-[0.65rem] text-gray-300">厨房機器、ワインセラー、DXシステム、販促支援等</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing (Mobile Vertical) -->
+    <section class="py-14 px-6 bg-gray-50">
+        <div class="text-center">
+            <p class="section-title-eng">PRICING</p>
+            <h2 class="section-title-jp">出展プラン</h2>
+        </div>
+
+        <div class="bg-white px-4 py-3 rounded-lg border border-gray-200 mb-8 text-center shadow-sm flex flex-col gap-2">
+            <div class="flex flex-col gap-1 items-center">
+                <p class="text-sm font-bold text-navy flex items-center justify-center gap-1.5"><i data-lucide="layout-grid" class="w-4 h-4 text-orange"></i> ゆとりある商談環境</p>
+                <p class="text-[0.65rem] text-gray-500 mt-1">ブース間隔：背後 1.5m / 左右 60cmを確保</p>
+            </div>
+            <a href="https://admin.prius-pro.jp/m/winecomplex/download.php?p=%241%243286%246e6ck6jWO63qygL3BZQZp1p&b=10&i=2013" target="_blank" rel="noopener noreferrer" class="mt-2 text-xs text-navy border border-navy/30 py-1.5 px-3 rounded-md hover:bg-navy/5 flex items-center justify-center gap-1">
+                <i data-lucide="file-text" class="w-3 h-3"></i> 詳細な出展要項はこちら(PDF)
+            </a>
+        </div>
+
+        <div class="space-y-6">
+            <!-- Standard (Recommended) -->
+            <div class="bg-white border-2 border-navy rounded-2xl shadow-xl relative overflow-hidden">
+                <div class="bg-navy text-white text-center py-1.5 text-[0.65rem] font-bold tracking-widest font-eng">RECOMMENDED</div>
+                <div class="p-6 text-center">
+                    <h3 class="text-lg font-bold text-navy mb-1">スタンダードブース</h3>
+                    <p class="text-[0.65rem] text-gray-500 mb-4">最も標準的で人気のプラン</p>
+                    <p class="text-4xl font-eng font-black text-navy mb-4">¥68,000<span class="text-xs font-normal text-gray-500">（税抜）</span></p>
+                    <div class="text-xs text-gray-700 bg-gray-50 p-3 rounded-lg text-left space-y-2 font-medium mb-4">
+                        <p><i data-lucide="check" class="w-3.5 h-3.5 inline text-green-600"></i> 1テーブル(W1800×D900)単独占有</p>
+                        <p><i data-lucide="check" class="w-3.5 h-3.5 inline text-green-600"></i> 魅力を十分に伝えられる基本サイズ</p>
+                    </div>
+                    <a href="https://info.tokyowinecomplex.com/form-C-international-2026.html" target="_blank" rel="noopener noreferrer" class="block w-full py-3 bg-navy text-white rounded-full font-bold text-sm shadow-md hover:bg-navy/90">
+                        このプランで申し込む
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Half -->
+                <div class="bg-white border border-gray-200 rounded-2xl p-4 text-center shadow-sm flex flex-col h-full">
+                    <h3 class="text-sm font-bold text-navy mb-1">ハーフブース</h3>
+                    <p class="text-2xl font-eng font-black text-navy mb-1">¥40,000</p>
+                    <p class="text-[0.6rem] text-gray-400 mb-3">(税抜)</p>
+                    <p class="text-[0.65rem] text-gray-600 text-left mb-4 flex-grow"><i data-lucide="check" class="w-3 h-3 inline text-green-500"></i> 1テーブル2社共有<br><i data-lucide="check" class="w-3 h-3 inline text-green-500"></i> 試験出展・共同出展用</p>
+                    <a href="https://info.tokyowinecomplex.com/form-C-international-2026.html" target="_blank" rel="noopener noreferrer" class="block w-full py-2 bg-gray-100 text-navy border border-gray-300 rounded-lg font-bold text-[0.7rem] hover:bg-gray-200 mt-auto">
+                        申し込む
+                    </a>
+                </div>
+                <!-- Wide -->
+                <div class="bg-white border border-gray-200 rounded-2xl p-4 text-center shadow-sm relative overflow-hidden flex flex-col h-full">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white text-[0.55rem] font-bold px-1.5 py-0.5 rounded-bl">10%OFF</div>
+                    <h3 class="text-sm font-bold text-navy mb-1 mt-1">ワイドブース</h3>
+                    <p class="text-2xl font-eng font-black text-navy mb-1">¥122,400</p>
+                    <p class="text-[0.6rem] text-gray-400 mb-3">(税抜)</p>
+                    <p class="text-[0.65rem] text-gray-600 text-left mb-4 flex-grow"><i data-lucide="check" class="w-3 h-3 inline text-green-500"></i> 2テーブル占有<br><i data-lucide="check" class="w-3 h-3 inline text-green-500"></i> 大規模展示・実演向け</p>
+                    <a href="https://info.tokyowinecomplex.com/form-C-international-2026.html" target="_blank" rel="noopener noreferrer" class="block w-full py-2 bg-gray-100 text-navy border border-gray-300 rounded-lg font-bold text-[0.7rem] hover:bg-gray-200 mt-auto">
+                        申し込む
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outline / Rule / Info -->
+    <section class="py-12 px-6 bg-white text-sm">
+        <h2 class="text-lg font-bold text-navy border-b-2 border-gray-100 pb-3 mb-6">開催概要</h2>
+        <dl class="space-y-4 text-gray-700">
+            <div class="flex gap-4">
+                <dt class="w-16 font-bold text-navy shrink-0">日時</dt>
+                <dd>2026年9月24日（木）12:00－17:00</dd>
+            </div>
+            <div class="flex gap-4">
+                <dt class="w-16 font-bold text-navy shrink-0">会場</dt>
+                <dd>東京ポートシティ竹芝<br>東京都立産業貿易センター浜松町館<br><span class="text-xs text-gray-400">※浜松町駅直結</span></dd>
+            </div>
+            <div class="flex gap-4">
+                <dt class="w-16 font-bold text-navy shrink-0">募集数</dt>
+                <dd>80社</dd>
+            </div>
+            <div class="flex gap-4 bg-red-50 p-3 rounded-lg text-red-700">
+                <dt class="w-16 font-bold shrink-0">申込締切</dt>
+                <dd class="font-bold">2026年8月9日（日）</dd>
+            </div>
+        </dl>
+
+        <div class="mt-8 pt-8 border-t border-gray-100">
+            <p class="text-xs text-gray-500 mb-2">主催・お問い合わせ</p>
+            <p class="font-bold text-navy text-sm">株式会社シーズバンク エキシビション事務局</p>
+            <p class="text-xs text-gray-600 mt-2"><i data-lucide="mail" class="w-3 h-3 inline mr-1"></i> y.kato@tokyowinecomplex.com（代表 加藤）</p>
+        </div>
+        
+        <div class="mt-8 text-center text-[0.6rem] text-gray-400 font-eng">
+            © 2026 SEEDS BANK CO., LTD.
+        </div>
+    </section>
+
+    <!-- Sticky Bottom CTA Bar -->
+    <div class="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[480px] bg-white/95 backdrop-blur-md border-t border-gray-200 p-4 shadow-[0_-10px_20px_rgba(0,0,0,0.05)] z-50 flex items-center justify-between">
+        <div class="text-xs">
+            <p class="font-bold text-red-600 mb-0.5">締切: 8月9日(日)</p>
+            <p class="text-gray-500 text-[0.65rem]">枠が埋まり次第終了</p>
+        </div>
+        <a href="https://info.tokyowinecomplex.com/form-C-international-2026.html" target="_blank" rel="noopener noreferrer" class="bg-gold text-navy px-8 py-3 rounded-full font-bold text-sm shadow-md hover:scale-105 transition-transform active:scale-95 flex items-center gap-2">
+            出展を申し込む <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </a>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
